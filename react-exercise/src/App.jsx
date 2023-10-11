@@ -1,7 +1,7 @@
 import './App.css'
 
 function App() {
-  const SayHello = ({ name = "Someone" }) => {
+  const SayHello = ({ name }) => {
     return <h1>Hello, {name}</h1>
   }
 
