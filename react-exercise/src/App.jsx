@@ -2,16 +2,19 @@ import './App.css'
 
 function App() {
 
-  const SayHello = ({ name }) => {
-    return <h1>Hello, {name}</h1>
+  const Function = (a, b) => {
+    const sum = a + b;
+    return (
+    <>
+      Sum: {sum}
+    </>
+  )  
   }
 
-  const JSXExpression = <p>"Suleyman"</p>
-
+  
   return (
     <>
-      <h1>Hello, world!</h1>
-      <SayHello name={JSXExpression}/>
+      <h2>{Function(3,5)}</h2>
     </>
   )
 }
