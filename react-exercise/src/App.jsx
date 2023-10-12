@@ -1,12 +1,20 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  const Function = (a, b) => {
+    const sum = a + b;
+    return (
+    <>
+      Sum: {sum}
+    </>
+  )  
+  }
+
+  
   return (
     <>
-      <h1>Hello, world!</h1>
+      <h2>{Function(3,5)}</h2>
     </>
   )
 }
