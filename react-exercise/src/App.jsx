@@ -8,6 +8,7 @@ function App() {
     <div> 
       <Hello /> 
       <Hello /> 
+      <Message />
     </div>
   );
 }
