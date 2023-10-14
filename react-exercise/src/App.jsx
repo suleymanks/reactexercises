@@ -1,22 +1,18 @@
 import './App.css'
+import Hello from "./components/Hello"
+import Message from "./components/Message"
+import Welcome from './components/Welcome';
 
 function App() {
 
-  const Function = (a, b) => {
-    const sum = a + b;
-    return (
-    <>
-      Sum: {sum}
-    </>
-  )  
-  }
-
-  
   return (
-    <>
-      <h2>{Function(3,5)}</h2>
-    </>
-  )
+    <div> 
+      <Hello /> 
+      <Hello /> 
+      <Message />
+      <Welcome name = "Suleyman" />
+    </div>
+  );
 }
 
 export default App
