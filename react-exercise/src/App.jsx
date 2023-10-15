@@ -10,7 +10,7 @@ function App() {
       <Hello /> 
       <Hello /> 
       <Message />
-      <Welcome />
+      <Welcome name="Suleyman " age="25" />
     </div>
   );
 }
